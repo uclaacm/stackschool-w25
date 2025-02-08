@@ -1,10 +1,10 @@
-# Hack Sprint Session 3: State and Bindings
+# Stackschool Session 3: User Authentication
 
-**Date**: January 26, 2022
+**Date**: February 10, 2025
 
 **Location**: Zoom
 
-**Teachers**: [Katelyn Yu](https://github.com/katelynsyu), [Eugene Lo](https://github.com/euglo)
+**Teachers**: [Shiyu Ye](), [Samuel Perrott](https://github.com/sperrott22), [Jaewook Cho]()
 
 Hello, and welcome to session 3's README! If you're here for the solutions to the demo exercises, click [here](#demo-exercise-solutions). Otherwise, read on!
 
