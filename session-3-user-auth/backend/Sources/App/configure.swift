@@ -19,6 +19,8 @@ public func configure(_ app: Application) async throws {
     try app.register(collection: UsersController())
     try app.register(collection: RestaurantsController())
     try app.register(collection: ReviewsController())
+    
     app.jwt.signers.use(.hs256(key: "SECRETKEY"))
+    
     try routes(app)
 }

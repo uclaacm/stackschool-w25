@@ -27,20 +27,20 @@ struct Review: Codable, Identifiable {
     let comment: String
     let createdAt: Date
     let user: User
-    let restaurant: Restaurant
+    let restaurant: RestaurantReference
     
     struct User: Codable {
         let id: UUID
         let username: String
+        private enum CodingKeys: String, CodingKey {
+            case id
+            case username
+            // Explicitly not including password
+        }
+
     }
+    struct RestaurantReference: Codable {
+        let id: UUID
+    }
+
 }
-
-// First create a struct to handle registration responses
-
-
-struct ReviewRequest: Encodable {
-    let restaurantId: String
-    let rating: Int
-    let comment: String
-}
-
