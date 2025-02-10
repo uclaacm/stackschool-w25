@@ -8,7 +8,7 @@ import Foundation
 import Vapor
 import Fluent
 
-final class Restaurant: Model, Content, Validatable {
+final class Restaurant: Model, Content, Validatable, @unchecked Sendable {
    static let schema = "restaurants"
    
    @ID(key: .id)

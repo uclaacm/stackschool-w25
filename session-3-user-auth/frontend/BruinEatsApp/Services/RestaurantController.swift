@@ -46,7 +46,7 @@ class RestaurantController {
         ] as [String: Any]
         
         let request = makeRequest(.post, url: Constants.Urls.reviews, body: body)
-        let (data, response) = try await URLSession.shared.data(for: request)
+        let (data, _) = try await URLSession.shared.data(for: request)
         
         return try decoder.decode(Review.self, from: data)
     }

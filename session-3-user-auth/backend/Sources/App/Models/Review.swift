@@ -10,7 +10,7 @@ import Foundation
 import Vapor
 import Fluent
 
-final class Review: Model, Content, Validatable {
+final class Review: Model, Content, Validatable, @unchecked Sendable {
     
     static let schema = "reviews"
     

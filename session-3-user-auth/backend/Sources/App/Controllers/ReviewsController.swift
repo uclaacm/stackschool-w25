@@ -9,15 +9,7 @@ import Vapor
 import Fluent
 import FluentMongoDriver
 
-// ReviewsController.swift
-class ReviewsController: RouteCollection {
-    func boot(routes: RoutesBuilder) throws {
-        let api = routes.grouped("api")
-        let protected = api.grouped(JWTAuthenticator())
-        
-        api.get("reviews", use: index)
-        protected.post("reviews", use: create)
-    }
+actor ReviewsController  {
     
     func index(req: Request) async throws -> [Review] {
         guard let restaurantId = req.query[UUID.self, at: "restaurantId"] else {
@@ -32,7 +24,7 @@ class ReviewsController: RouteCollection {
     
     func create(req: Request) async throws -> Review {
         let userId = try req.auth.require(AuthPayload.self).userId
-        let reviewCreate = try req.content.decode(ReviewCreate.self)
+        let reviewCreate = try req.content.decode(ReviewDTO.self)
         
         // Create a new review from the DTO
         let review = Review()

@@ -4,8 +4,7 @@ import Fluent
 import Vapor
 
 struct AuthPayload: JWTPayload, Authenticatable {
-    typealias Payload = AuthPayload
-    
+    // Required coding keys for JWT
     enum CodingKeys: String, CodingKey {
         case expiration = "exp"
         case userId = "uid"
@@ -16,5 +15,14 @@ struct AuthPayload: JWTPayload, Authenticatable {
     
     func verify(using signer: JWTSigner) throws {
         try self.expiration.verifyNotExpired()
+    }
+}
+
+struct JWTAuthenticator: AsyncBearerAuthenticator {
+    typealias User = AuthPayload  // Required by AsyncBearerAuthenticator
+    
+    func authenticate(bearer: BearerAuthorization, for request: Request) async throws {
+        let payload = try request.jwt.verify(bearer.token, as: AuthPayload.self)
+        request.auth.login(payload)
     }
 }

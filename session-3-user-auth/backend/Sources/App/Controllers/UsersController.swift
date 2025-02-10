@@ -3,13 +3,7 @@ import Vapor
 import Fluent
 import FluentMongoDriver
 
-class UsersController: RouteCollection {
-    func boot(routes: RoutesBuilder) throws {
-        let api = routes.grouped("api")
-        api.post("register", use: register)
-        api.post("login", use: login)
-    }
-    
+actor UsersController {
     func login(req: Request) async throws -> Response {
         // decode the request
         let credentials = try req.content.decode(User.self)

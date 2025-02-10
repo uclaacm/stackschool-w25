@@ -6,7 +6,7 @@
 //
 import Vapor
 
-struct RestaurantCreate: Content {
+struct RestaurantDTO: Content {
     let name: String
     let description: String
     let imageUrl: String?

@@ -7,7 +7,7 @@
 
 import Vapor
 
-struct ReviewCreate: Content {
+struct ReviewDTO: Content {
     let comment: String
     let rating: Int
     let restaurantId: UUID

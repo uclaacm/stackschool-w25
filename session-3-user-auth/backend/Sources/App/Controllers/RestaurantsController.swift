@@ -10,16 +10,8 @@ import Vapor
 import Fluent
 import FluentMongoDriver
 
-// RestaurantsController.swift
-class RestaurantsController: RouteCollection {
-    func boot(routes: RoutesBuilder) throws {
-        let api = routes.grouped("api")
-        let protected = api.grouped(JWTAuthenticator())
-        
-        api.get("restaurants", use: index)
-        protected.post("restaurants", use: create)
-    }
-    
+
+actor RestaurantsController {    
     func index(req: Request) async throws -> [Restaurant] {
         try await Restaurant.query(on: req.db).all()
     }
@@ -27,7 +19,7 @@ class RestaurantsController: RouteCollection {
 
     func create(req: Request) async throws -> Restaurant {
         let userId = try req.auth.require(AuthPayload.self).userId
-        let restaurantCreate = try req.content.decode(RestaurantCreate.self)
+        let restaurantCreate = try req.content.decode(RestaurantDTO.self)
         
         let restaurant = Restaurant()
         restaurant.name = restaurantCreate.name
@@ -40,5 +32,5 @@ class RestaurantsController: RouteCollection {
         try await restaurant.save(on: req.db)
         return restaurant
     }
-
 }
+
