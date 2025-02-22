@@ -6,9 +6,9 @@ Swift mobile development is a rich and developing field, and this workshop serie
 
 ## Curriculum Overview
 
-- [Session 1: Intro to Fullstack Mobile Development]()
-- [Session 2: Databases and Servers](https://github.com/uclaacm/hack-sprint-w22/tree/main/session-2-swift-fundamentals)
-- [Session 3: Backend Integration & User Authentication](https://github.com/uclaacm/hack-sprint-w22/tree/main/session-3-state-and-bindings)
+- [Session 1: Intro to Fullstack Mobile Development](https://docs.google.com/presentation/d/1sOHFnYKNYro31oBNwP6BWhCLxArR2sSIF-9ZeR6s93I/edit?usp=sharing)
+- [Session 2: Databases and Servers](https://docs.google.com/presentation/d/1OvhMyZwT6OUKJ5LO3D5ZBpPgS5QDaG-4_dTLUyTWjuI/edit?usp=sharing)
+- [Session 3: Backend Integration & User Authentication](https://docs.google.com/presentation/d/1_Pimdx2HOaroIZ0muSpBisKiS1bilcBwrlGOf5fi9mM/edit?usp=sharing)
 - [Session 4: SwiftUI Post Components](https://github.com/uclaacm/hack-sprint-w22/tree/main/session-4-advanced-views)
 - [Session 5: SwiftUI Navigation and Styling](https://github.com/uclaacm/hack-sprint-w22/tree/main/session-5-data-and-networking)
 
