@@ -1,15 +1,8 @@
-//
-//  User.swift
-//  backend
-//
-//  Created by Shiyu Ye on 2/10/25.
-//
-
 import Foundation
 import Vapor
 import Fluent
 
-final class User: Model, Content, Validatable, @unchecked Sendable {
+final class User: Model, Content, Validatable {
     static let schema = "users"
     
     @ID(key: .id)

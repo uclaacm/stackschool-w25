@@ -28,8 +28,8 @@ actor UsersController {
         
         // generate the token
         let authPayload = try AuthPayload(
-            expiration: .init(value: Date.distantFuture),
-            userId: existingUser.requireID()
+            exp: .init(value: Date.distantFuture),
+            uid: existingUser.requireID()
         )
         
         // return token and user ID

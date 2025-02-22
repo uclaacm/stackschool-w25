@@ -23,7 +23,7 @@ actor ReviewsController  {
     }
     
     func create(req: Request) async throws -> Review {
-        let userId = try req.auth.require(AuthPayload.self).userId
+        let uid = try req.auth.require(AuthPayload.self).uid
         let reviewCreate = try req.content.decode(ReviewDTO.self)
         
         // Create a new review from the DTO
@@ -31,7 +31,7 @@ actor ReviewsController  {
         review.comment = reviewCreate.comment
         review.rating = reviewCreate.rating
         review.$restaurant.id = reviewCreate.restaurantId
-        review.$user.id = userId
+        review.$user.id = uid
         
         // Validate the review
         try Review.validate(content: req)

@@ -26,7 +26,6 @@ final class User: Model, Content, Validatable, @unchecked Sendable {
     {
         validations.add("username", as: String.self, is:!.empty, customFailureDescription: "Username cannot be empty")
         validations.add("password", as: String.self, is:!.empty, customFailureDescription: "Password cannot be empty")
-        
         validations.add("password", as: String.self, is: .count(6...10), customFailureDescription: "Password must be between 6 to 10 long")
     }
 }

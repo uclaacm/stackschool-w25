@@ -18,7 +18,7 @@ x-shared_environment: &shared_environment
   
 services:
   app:
-    image: backend:latest
+    image: bruineats-server-app:latest
     build:
       context: .
     environment:

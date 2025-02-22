@@ -19,4 +19,11 @@ struct AuthPayload: JWTPayload, Authenticatable {
     }
 }
 
-
+struct JWTAuthenticator : AsyncBearerAuthenticator {
+    typealias User = AuthPayload
+    
+    func authenticate(bearer: BearerAuthorization, for request: Request) async throws {
+        let payload = try request.jwt.verify(bearer.token, as: AuthPayload.self)
+        request.auth.login(payload)
+    }
+}

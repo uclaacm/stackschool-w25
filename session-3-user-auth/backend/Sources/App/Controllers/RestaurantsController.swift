@@ -18,7 +18,7 @@ actor RestaurantsController {
     
 
     func create(req: Request) async throws -> Restaurant {
-        let userId = try req.auth.require(AuthPayload.self).userId
+        let uid = try req.auth.require(AuthPayload.self).uid
         let restaurantCreate = try req.content.decode(RestaurantDTO.self)
         
         let restaurant = Restaurant()
@@ -26,7 +26,7 @@ actor RestaurantsController {
         restaurant.description = restaurantCreate.description
         restaurant.imageUrl = restaurantCreate.imageUrl
         restaurant.averageRating = 0  // Set initial rating to 0
-        restaurant.$user.id = userId
+        restaurant.$user.id = uid
         
         try Restaurant.validate(content: req)
         try await restaurant.save(on: req.db)
