@@ -3,66 +3,72 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AE3525672D4D6FBA00A259D0 /* BruinEatsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3525662D4D6FBA00A259D0 /* BruinEatsAppApp.swift */; };
+		AE3525692D4D6FBA00A259D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3525682D4D6FBA00A259D0 /* ContentView.swift */; };
+		AE35256B2D4D6FBB00A259D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE35256A2D4D6FBB00A259D0 /* Assets.xcassets */; };
+		AE35256E2D4D6FBB00A259D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE35256D2D4D6FBB00A259D0 /* Preview Assets.xcassets */; };
+		AE3525782D4D6FBB00A259D0 /* BruinEatsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3525772D4D6FBB00A259D0 /* BruinEatsAppTests.swift */; };
+		AE3525822D4D6FBB00A259D0 /* BruinEatsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3525812D4D6FBB00A259D0 /* BruinEatsAppUITests.swift */; };
+		AE3525842D4D6FBB00A259D0 /* BruinEatsAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3525832D4D6FBB00A259D0 /* BruinEatsAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
-		F75AD6BB2D322C840099F4CB /* PBXContainerItemProxy */ = {
+		AE3525742D4D6FBB00A259D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F75AD6A22D322C820099F4CB /* Project object */;
+			containerPortal = AE35255B2D4D6FBA00A259D0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F75AD6A92D322C820099F4CB;
+			remoteGlobalIDString = AE3525622D4D6FBA00A259D0;
 			remoteInfo = BruinEatsApp;
 		};
-		F75AD6C52D322C840099F4CB /* PBXContainerItemProxy */ = {
+		AE35257E2D4D6FBB00A259D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F75AD6A22D322C820099F4CB /* Project object */;
+			containerPortal = AE35255B2D4D6FBA00A259D0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F75AD6A92D322C820099F4CB;
+			remoteGlobalIDString = AE3525622D4D6FBA00A259D0;
 			remoteInfo = BruinEatsApp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F75AD6AA2D322C820099F4CB /* BruinEatsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BruinEatsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F75AD6BA2D322C840099F4CB /* BruinEatsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BruinEatsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F75AD6C42D322C840099F4CB /* BruinEatsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BruinEatsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE3525632D4D6FBA00A259D0 /* BruinEatsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BruinEatsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE3525662D4D6FBA00A259D0 /* BruinEatsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BruinEatsAppApp.swift; sourceTree = "<group>"; };
+		AE3525682D4D6FBA00A259D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AE35256A2D4D6FBB00A259D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE35256D2D4D6FBB00A259D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AE3525732D4D6FBB00A259D0 /* BruinEatsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BruinEatsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE3525772D4D6FBB00A259D0 /* BruinEatsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BruinEatsAppTests.swift; sourceTree = "<group>"; };
+		AE35257D2D4D6FBB00A259D0 /* BruinEatsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BruinEatsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE3525812D4D6FBB00A259D0 /* BruinEatsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BruinEatsAppUITests.swift; sourceTree = "<group>"; };
+		AE3525832D4D6FBB00A259D0 /* BruinEatsAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BruinEatsAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		F75AD6AC2D322C820099F4CB /* BruinEatsApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = BruinEatsApp;
-			sourceTree = "<group>";
-		};
-		F75AD6BD2D322C840099F4CB /* BruinEatsAppTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = BruinEatsAppTests;
-			sourceTree = "<group>";
-		};
-		F75AD6C72D322C840099F4CB /* BruinEatsAppUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = BruinEatsAppUITests;
-			sourceTree = "<group>";
-		};
+		F738DCB42D6D623700654168 /* Models */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Models; sourceTree = "<group>"; };
+		F738DCB82D6D63B000654168 /* Screens */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Screens; sourceTree = "<group>"; };
+		F738DCBC2D6D6C0D00654168 /* Utils */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Utils; sourceTree = "<group>"; };
+		F738DCC02D6D6D0600654168 /* Controllers */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Controllers; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F75AD6A72D322C820099F4CB /* Frameworks */ = {
+		AE3525602D4D6FBA00A259D0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F75AD6B72D322C840099F4CB /* Frameworks */ = {
+		AE3525702D4D6FBB00A259D0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F75AD6C12D322C840099F4CB /* Frameworks */ = {
+		AE35257A2D4D6FBB00A259D0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,157 +78,189 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F75AD6A12D322C820099F4CB = {
+		AE35255A2D4D6FBA00A259D0 = {
 			isa = PBXGroup;
 			children = (
-				F75AD6AC2D322C820099F4CB /* BruinEatsApp */,
-				F75AD6BD2D322C840099F4CB /* BruinEatsAppTests */,
-				F75AD6C72D322C840099F4CB /* BruinEatsAppUITests */,
-				F75AD6AB2D322C820099F4CB /* Products */,
+				AE3525652D4D6FBA00A259D0 /* BruinEatsApp */,
+				AE3525762D4D6FBB00A259D0 /* BruinEatsAppTests */,
+				AE3525802D4D6FBB00A259D0 /* BruinEatsAppUITests */,
+				AE3525642D4D6FBA00A259D0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F75AD6AB2D322C820099F4CB /* Products */ = {
+		AE3525642D4D6FBA00A259D0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F75AD6AA2D322C820099F4CB /* BruinEatsApp.app */,
-				F75AD6BA2D322C840099F4CB /* BruinEatsAppTests.xctest */,
-				F75AD6C42D322C840099F4CB /* BruinEatsAppUITests.xctest */,
+				AE3525632D4D6FBA00A259D0 /* BruinEatsApp.app */,
+				AE3525732D4D6FBB00A259D0 /* BruinEatsAppTests.xctest */,
+				AE35257D2D4D6FBB00A259D0 /* BruinEatsAppUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AE3525652D4D6FBA00A259D0 /* BruinEatsApp */ = {
+			isa = PBXGroup;
+			children = (
+				F738DCC02D6D6D0600654168 /* Controllers */,
+				F738DCBC2D6D6C0D00654168 /* Utils */,
+				F738DCB82D6D63B000654168 /* Screens */,
+				F738DCB42D6D623700654168 /* Models */,
+				AE3525662D4D6FBA00A259D0 /* BruinEatsAppApp.swift */,
+				AE3525682D4D6FBA00A259D0 /* ContentView.swift */,
+				AE35256A2D4D6FBB00A259D0 /* Assets.xcassets */,
+				AE35256C2D4D6FBB00A259D0 /* Preview Content */,
+			);
+			path = BruinEatsApp;
+			sourceTree = "<group>";
+		};
+		AE35256C2D4D6FBB00A259D0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AE35256D2D4D6FBB00A259D0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AE3525762D4D6FBB00A259D0 /* BruinEatsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE3525772D4D6FBB00A259D0 /* BruinEatsAppTests.swift */,
+			);
+			path = BruinEatsAppTests;
+			sourceTree = "<group>";
+		};
+		AE3525802D4D6FBB00A259D0 /* BruinEatsAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE3525812D4D6FBB00A259D0 /* BruinEatsAppUITests.swift */,
+				AE3525832D4D6FBB00A259D0 /* BruinEatsAppUITestsLaunchTests.swift */,
+			);
+			path = BruinEatsAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F75AD6A92D322C820099F4CB /* BruinEatsApp */ = {
+		AE3525622D4D6FBA00A259D0 /* BruinEatsApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F75AD6CE2D322C840099F4CB /* Build configuration list for PBXNativeTarget "BruinEatsApp" */;
+			buildConfigurationList = AE3525872D4D6FBB00A259D0 /* Build configuration list for PBXNativeTarget "BruinEatsApp" */;
 			buildPhases = (
-				F75AD6A62D322C820099F4CB /* Sources */,
-				F75AD6A72D322C820099F4CB /* Frameworks */,
-				F75AD6A82D322C820099F4CB /* Resources */,
+				AE35255F2D4D6FBA00A259D0 /* Sources */,
+				AE3525602D4D6FBA00A259D0 /* Frameworks */,
+				AE3525612D4D6FBA00A259D0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				F75AD6AC2D322C820099F4CB /* BruinEatsApp */,
+				F738DCB42D6D623700654168 /* Models */,
+				F738DCB82D6D63B000654168 /* Screens */,
+				F738DCBC2D6D6C0D00654168 /* Utils */,
+				F738DCC02D6D6D0600654168 /* Controllers */,
 			);
 			name = BruinEatsApp;
-			packageProductDependencies = (
-			);
 			productName = BruinEatsApp;
-			productReference = F75AD6AA2D322C820099F4CB /* BruinEatsApp.app */;
+			productReference = AE3525632D4D6FBA00A259D0 /* BruinEatsApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F75AD6B92D322C840099F4CB /* BruinEatsAppTests */ = {
+		AE3525722D4D6FBB00A259D0 /* BruinEatsAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F75AD6D12D322C840099F4CB /* Build configuration list for PBXNativeTarget "BruinEatsAppTests" */;
+			buildConfigurationList = AE35258A2D4D6FBB00A259D0 /* Build configuration list for PBXNativeTarget "BruinEatsAppTests" */;
 			buildPhases = (
-				F75AD6B62D322C840099F4CB /* Sources */,
-				F75AD6B72D322C840099F4CB /* Frameworks */,
-				F75AD6B82D322C840099F4CB /* Resources */,
+				AE35256F2D4D6FBB00A259D0 /* Sources */,
+				AE3525702D4D6FBB00A259D0 /* Frameworks */,
+				AE3525712D4D6FBB00A259D0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F75AD6BC2D322C840099F4CB /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				F75AD6BD2D322C840099F4CB /* BruinEatsAppTests */,
+				AE3525752D4D6FBB00A259D0 /* PBXTargetDependency */,
 			);
 			name = BruinEatsAppTests;
-			packageProductDependencies = (
-			);
 			productName = BruinEatsAppTests;
-			productReference = F75AD6BA2D322C840099F4CB /* BruinEatsAppTests.xctest */;
+			productReference = AE3525732D4D6FBB00A259D0 /* BruinEatsAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F75AD6C32D322C840099F4CB /* BruinEatsAppUITests */ = {
+		AE35257C2D4D6FBB00A259D0 /* BruinEatsAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F75AD6D42D322C840099F4CB /* Build configuration list for PBXNativeTarget "BruinEatsAppUITests" */;
+			buildConfigurationList = AE35258D2D4D6FBB00A259D0 /* Build configuration list for PBXNativeTarget "BruinEatsAppUITests" */;
 			buildPhases = (
-				F75AD6C02D322C840099F4CB /* Sources */,
-				F75AD6C12D322C840099F4CB /* Frameworks */,
-				F75AD6C22D322C840099F4CB /* Resources */,
+				AE3525792D4D6FBB00A259D0 /* Sources */,
+				AE35257A2D4D6FBB00A259D0 /* Frameworks */,
+				AE35257B2D4D6FBB00A259D0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F75AD6C62D322C840099F4CB /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				F75AD6C72D322C840099F4CB /* BruinEatsAppUITests */,
+				AE35257F2D4D6FBB00A259D0 /* PBXTargetDependency */,
 			);
 			name = BruinEatsAppUITests;
-			packageProductDependencies = (
-			);
 			productName = BruinEatsAppUITests;
-			productReference = F75AD6C42D322C840099F4CB /* BruinEatsAppUITests.xctest */;
+			productReference = AE35257D2D4D6FBB00A259D0 /* BruinEatsAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F75AD6A22D322C820099F4CB /* Project object */ = {
+		AE35255B2D4D6FBA00A259D0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1620;
-				LastUpgradeCheck = 1620;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					F75AD6A92D322C820099F4CB = {
-						CreatedOnToolsVersion = 16.2;
+					AE3525622D4D6FBA00A259D0 = {
+						CreatedOnToolsVersion = 15.4;
 					};
-					F75AD6B92D322C840099F4CB = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = F75AD6A92D322C820099F4CB;
+					AE3525722D4D6FBB00A259D0 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = AE3525622D4D6FBA00A259D0;
 					};
-					F75AD6C32D322C840099F4CB = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = F75AD6A92D322C820099F4CB;
+					AE35257C2D4D6FBB00A259D0 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = AE3525622D4D6FBA00A259D0;
 					};
 				};
 			};
-			buildConfigurationList = F75AD6A52D322C820099F4CB /* Build configuration list for PBXProject "BruinEatsApp" */;
+			buildConfigurationList = AE35255E2D4D6FBA00A259D0 /* Build configuration list for PBXProject "BruinEatsApp" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = F75AD6A12D322C820099F4CB;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
-			productRefGroup = F75AD6AB2D322C820099F4CB /* Products */;
+			mainGroup = AE35255A2D4D6FBA00A259D0;
+			productRefGroup = AE3525642D4D6FBA00A259D0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F75AD6A92D322C820099F4CB /* BruinEatsApp */,
-				F75AD6B92D322C840099F4CB /* BruinEatsAppTests */,
-				F75AD6C32D322C840099F4CB /* BruinEatsAppUITests */,
+				AE3525622D4D6FBA00A259D0 /* BruinEatsApp */,
+				AE3525722D4D6FBB00A259D0 /* BruinEatsAppTests */,
+				AE35257C2D4D6FBB00A259D0 /* BruinEatsAppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F75AD6A82D322C820099F4CB /* Resources */ = {
+		AE3525612D4D6FBA00A259D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE35256E2D4D6FBB00A259D0 /* Preview Assets.xcassets in Resources */,
+				AE35256B2D4D6FBB00A259D0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE3525712D4D6FBB00A259D0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F75AD6B82D322C840099F4CB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F75AD6C22D322C840099F4CB /* Resources */ = {
+		AE35257B2D4D6FBB00A259D0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,44 +270,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F75AD6A62D322C820099F4CB /* Sources */ = {
+		AE35255F2D4D6FBA00A259D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE3525692D4D6FBA00A259D0 /* ContentView.swift in Sources */,
+				AE3525672D4D6FBA00A259D0 /* BruinEatsAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F75AD6B62D322C840099F4CB /* Sources */ = {
+		AE35256F2D4D6FBB00A259D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE3525782D4D6FBB00A259D0 /* BruinEatsAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F75AD6C02D322C840099F4CB /* Sources */ = {
+		AE3525792D4D6FBB00A259D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE3525842D4D6FBB00A259D0 /* BruinEatsAppUITestsLaunchTests.swift in Sources */,
+				AE3525822D4D6FBB00A259D0 /* BruinEatsAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F75AD6BC2D322C840099F4CB /* PBXTargetDependency */ = {
+		AE3525752D4D6FBB00A259D0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F75AD6A92D322C820099F4CB /* BruinEatsApp */;
-			targetProxy = F75AD6BB2D322C840099F4CB /* PBXContainerItemProxy */;
+			target = AE3525622D4D6FBA00A259D0 /* BruinEatsApp */;
+			targetProxy = AE3525742D4D6FBB00A259D0 /* PBXContainerItemProxy */;
 		};
-		F75AD6C62D322C840099F4CB /* PBXTargetDependency */ = {
+		AE35257F2D4D6FBB00A259D0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F75AD6A92D322C820099F4CB /* BruinEatsApp */;
-			targetProxy = F75AD6C52D322C840099F4CB /* PBXContainerItemProxy */;
+			target = AE3525622D4D6FBA00A259D0 /* BruinEatsApp */;
+			targetProxy = AE35257E2D4D6FBB00A259D0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		F75AD6CC2D322C840099F4CB /* Debug */ = {
+		AE3525852D4D6FBB00A259D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -321,7 +364,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -332,7 +375,7 @@
 			};
 			name = Debug;
 		};
-		F75AD6CD2D322C840099F4CB /* Release */ = {
+		AE3525862D4D6FBB00A259D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -378,7 +421,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -388,7 +431,7 @@
 			};
 			name = Release;
 		};
-		F75AD6CF2D322C840099F4CB /* Debug */ = {
+		AE3525882D4D6FBB00A259D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -416,7 +459,7 @@
 			};
 			name = Debug;
 		};
-		F75AD6D02D322C840099F4CB /* Release */ = {
+		AE3525892D4D6FBB00A259D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -444,14 +487,15 @@
 			};
 			name = Release;
 		};
-		F75AD6D22D322C840099F4CB /* Debug */ = {
+		AE35258B2D4D6FBB00A259D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = UCLA.BruinEatsAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -462,14 +506,15 @@
 			};
 			name = Debug;
 		};
-		F75AD6D32D322C840099F4CB /* Release */ = {
+		AE35258C2D4D6FBB00A259D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = UCLA.BruinEatsAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -480,9 +525,10 @@
 			};
 			name = Release;
 		};
-		F75AD6D52D322C840099F4CB /* Debug */ = {
+		AE35258E2D4D6FBB00A259D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -496,9 +542,10 @@
 			};
 			name = Debug;
 		};
-		F75AD6D62D322C840099F4CB /* Release */ = {
+		AE35258F2D4D6FBB00A259D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -515,43 +562,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F75AD6A52D322C820099F4CB /* Build configuration list for PBXProject "BruinEatsApp" */ = {
+		AE35255E2D4D6FBA00A259D0 /* Build configuration list for PBXProject "BruinEatsApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F75AD6CC2D322C840099F4CB /* Debug */,
-				F75AD6CD2D322C840099F4CB /* Release */,
+				AE3525852D4D6FBB00A259D0 /* Debug */,
+				AE3525862D4D6FBB00A259D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F75AD6CE2D322C840099F4CB /* Build configuration list for PBXNativeTarget "BruinEatsApp" */ = {
+		AE3525872D4D6FBB00A259D0 /* Build configuration list for PBXNativeTarget "BruinEatsApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F75AD6CF2D322C840099F4CB /* Debug */,
-				F75AD6D02D322C840099F4CB /* Release */,
+				AE3525882D4D6FBB00A259D0 /* Debug */,
+				AE3525892D4D6FBB00A259D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F75AD6D12D322C840099F4CB /* Build configuration list for PBXNativeTarget "BruinEatsAppTests" */ = {
+		AE35258A2D4D6FBB00A259D0 /* Build configuration list for PBXNativeTarget "BruinEatsAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F75AD6D22D322C840099F4CB /* Debug */,
-				F75AD6D32D322C840099F4CB /* Release */,
+				AE35258B2D4D6FBB00A259D0 /* Debug */,
+				AE35258C2D4D6FBB00A259D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F75AD6D42D322C840099F4CB /* Build configuration list for PBXNativeTarget "BruinEatsAppUITests" */ = {
+		AE35258D2D4D6FBB00A259D0 /* Build configuration list for PBXNativeTarget "BruinEatsAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F75AD6D52D322C840099F4CB /* Debug */,
-				F75AD6D62D322C840099F4CB /* Release */,
+				AE35258E2D4D6FBB00A259D0 /* Debug */,
+				AE35258F2D4D6FBB00A259D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F75AD6A22D322C820099F4CB /* Project object */;
+	rootObject = AE35255B2D4D6FBA00A259D0 /* Project object */;
 }

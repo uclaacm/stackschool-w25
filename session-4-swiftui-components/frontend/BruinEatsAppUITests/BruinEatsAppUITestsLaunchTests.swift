@@ -2,7 +2,7 @@
 //  BruinEatsAppUITestsLaunchTests.swift
 //  BruinEatsAppUITests
 //
-//  Created by Sneha Agarwal on 1/10/25.
+//  Created by Shiyu Ye on 1/31/25.
 //
 
 import XCTest
@@ -17,7 +17,6 @@ final class BruinEatsAppUITestsLaunchTests: XCTestCase {
         continueAfterFailure = false
     }
 
-    @MainActor
     func testLaunch() throws {
         let app = XCUIApplication()
         app.launch()

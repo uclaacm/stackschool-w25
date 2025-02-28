@@ -2,7 +2,7 @@
 //  Restaurant.swift
 //  BruinEatsApp
 //
-//  Created by Samuel Perrott on 24/01/25.
+//  Created by Sneha Agarwal on 2/24/25.
 //
 
 import Foundation
@@ -20,4 +20,3 @@ struct Restaurant: Codable, Identifiable {
         let id: UUID
     }
 }
-
